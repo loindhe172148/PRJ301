@@ -9,3 +9,10 @@ document.querySelector(".menu-toggle").addEventListener("click", function () {
       ? "flex"
       : "none";
 });
+document.querySelector(".menu-toggle").addEventListener("click", function () {
+  const menu = document.querySelector(".contact_button");
+  menu.style.display =
+    menu.style.display === "none" || menu.style.display === ""
+      ? "flex"
+      : "none";
+});

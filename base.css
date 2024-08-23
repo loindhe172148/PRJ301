@@ -73,3 +73,11 @@ html {
 .grid05 {
   flex: 5%;
 }
+@keyframes fdeIn {
+  form {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

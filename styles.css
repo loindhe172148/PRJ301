@@ -8,6 +8,7 @@
 .site_header {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .main_logo img {
   margin-left: 146px;
@@ -30,6 +31,7 @@
 }
 .main_menu ul {
   display: flex;
+  list-style-type: none;
 }
 .main_menu li {
   list-style-type: none;
@@ -38,11 +40,12 @@
 .main_menu a {
   text-decoration: none;
   display: flex;
-  font-size: 18px;
+  align-items: center;
+  text-align: center;
 }
 .home_1 {
   color: #414880;
-
+  font-size: 18px;
   margin-left: 126px;
   letter-spacing: 0.8px;
 }
@@ -50,26 +53,27 @@
   color: #969699;
   margin-left: 42px;
   letter-spacing: 0.8px;
+  font-size: 18px;
 }
 .home_3 {
   color: #969699;
   margin-left: 43px;
   letter-spacing: 0.8px;
+  font-size: 18px;
 }
 .home_4 {
   color: #969699;
   margin-left: 43px;
   letter-spacing: 0.8px;
+  font-size: 18px;
 }
 .home_5 {
   color: #969699;
-  margin-left: 48px;
+  margin-left: 46px;
   letter-spacing: 0.8px;
+  font-size: 18px;
 }
 .contact_button {
-  margin-top: 62px;
-}
-.contact_button a {
   text-decoration: none;
   border-radius: 50px;
   color: white;
@@ -78,6 +82,7 @@
   padding: 15px 40px 15px 42px;
   letter-spacing: 1.5px;
   margin-left: 50px;
+  margin-top: -15px;
 }
 .main_header {
   margin-top: 171px;
